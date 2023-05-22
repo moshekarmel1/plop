@@ -10,6 +10,8 @@ This project allows you to easily take some data that you have (like a Wiki, kno
 
 Create a file called `.env` with the environment variables. It should be based on the `.env.example` file.
 
+Install the Dependencies with `pip install -r requirements.txt`
+
 Run `python loader.py` (one time) to load up some documents into the Pincone Vector DB, and use the Embeddings to save them in a way that can be easily queried later.
 
 Run `python main.py` to query the Wiki system with your questions.
